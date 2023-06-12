@@ -14,7 +14,7 @@ func TestInteration(t *testing.T) {
 	}
 }
 
-func BenchmarkRepet(b *testing.B) {
+func BenchmarkRepeat(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		Repeat("a", 5)
 	}
